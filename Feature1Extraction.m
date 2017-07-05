@@ -28,7 +28,7 @@ function Feature1Extraction()
 
 
         fprintf(fid,'%d',k);
-        fprintf(fid,'%s','       ');
+        fprintf(fid,'%s',',');
         for i=1:a+b-1
           fprintf(fid,'%d',C(1,i));%将特征向量写入文本
           fprintf(fid,'%s',',');%用逗号隔开

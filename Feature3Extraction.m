@@ -51,7 +51,7 @@ function Feature1Extraction()
         end 
     
         fprintf(fid, '%d', k);
-        fprintf(fid, '%s','       ');
+        fprintf(fid, '%s',',');
         for i=1: (2 * a + 2 * b -1)
             fprintf(fid, '%d', C(1,i));
             fprintf(fid, '%s', ',');

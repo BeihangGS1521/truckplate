@@ -23,7 +23,7 @@ function Feature6Extration()
        end
        
        fprintf(fid,'%d',k);
-       fprintf(fid,'%s','       ');
+       fprintf(fid,'%s',',');
        
        for i = 1:x * y -1
           fprintf(fid, '%g', C(1,i) / S(1,i));
